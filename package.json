@@ -1,0 +1,14 @@
+{
+  "name": "my-auth-app-root",
+  "version": "1.0.0",
+  "description": "Root controller for MERN Form Authentication",
+  "private": true,
+  "scripts": {
+  "start-backend": "cd Backend && npm run dev",
+  "start-frontend": "cd Frontend && npm run dev",
+  "dev": "concurrently \"npm run start-backend\" \"npm run start-frontend\""
+},
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
